@@ -16,7 +16,7 @@ body {
 /* Style the header */
 .header {
   grid-area: header;
-  background-color: #f1f1f1;
+  background-color: white;
   padding: 30px;
   text-align: center;
   font-size: 35px;
@@ -73,17 +73,17 @@ body {
       'footer footer footer footer footer footer';
   }
 }
+#header-img{
+    width:80%;
+    max-width:400px;
+}
+
 </style>
 </style>
 <body>
-<h2></h2>
-<p>In this example, we have created a header, three unequal columns and a footer. On smaller screens, the columns will stack on top of each other.</p>
-<p>Resize the browser window to see the responsive effect.</p>
-<p><strong>Note:</strong> The Grid Layout Module is not supported in Internet Explorer or Edge 15 eand earlier versions.</p>
-
 <div class="grid-container">
   <div class="header">
-    <img src="assets/save_the_date-tree_and_moon-2022-07-21.jpg">
+    <img id="header-img" src="assets/save_the_date-tree_and_moon-2022-07-21.jpg">
   </div>
   
   <div class="left" style="background-color:#aaa;">Column</div>
