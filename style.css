@@ -1,0 +1,18 @@
+body,h1,h2{font-family: "Raleway", sans-serif; background-color: #649AA2;}
+body, html {height: 100%}
+p {line-height: 2}
+.bgimg, .bgimg2 {
+  min-height: 100%;
+  background-position-x: center;
+  background-size: cover;
+}
+.bgimg {background: url("./assets/save_the_date-tree_and_moon-2022-07-21.jpg")}
+/* .bgimg2 {background-image: url("./assets/save-the-date_for-web_2022-09-22.jpg")} */
+img {  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
