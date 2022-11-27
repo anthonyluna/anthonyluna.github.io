@@ -1,20 +1,21 @@
-body,h1,h2{font-family: "Raleway", sans-serif; background-color: #649AA2; padding-top: 65px; }
-body, html {height: 100%}
-p {line-height: 2}
-.bgimg, .bgimg2 {
-  min-height: 100%;
-  background-position-x: center;
-  background-size: cover;
+body{
+  font-family: "Raleway", sans-serif;
+  background-color: #649AA2; 
+  padding-top: 65px;
+  padding-bottom: 65px;
 }
-.bgimg {background: url("./assets/save_the_date-tree_and_moon-2022-07-21.jpg")}
-/* .bgimg2 {background-image: url("./assets/save-the-date_for-web_2022-09-22.jpg")} */
+body, html {
+  height: 100%;
+}
+p {
+  line-height: 2
+}
+
 img {  
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 40%;
-  margin-top: 32px;
-  margin-bottom: 32px;
 }
 .banner {
    background-image: url("./assets/banner_moon-wind-leaves.jpg");
@@ -24,13 +25,26 @@ img {
    height: 400px;
 
 }
-/*.banner {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-    max-width: 600px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}*/
+section {
+  width: 100%;
+  padding: 32px;
+}
+#section_how-we-met{
+  background-color: rgb(146, 158, 170);
+}
+#section_accomodations{
+  background-color: rgb(16, 51, 51);
+}
+#section_venue{
+  background-color: rgb(215, 208, 215);
+}
+#section_music{
+  background-color: rgb(246, 221, 165);
+}
+#section_photos{
+  background-color: rgb(226, 221, 216);
+}
+#section_makers{
+  background-color: rgb(223, 158, 132);
+}
 .nav-bar-link { white-space: nowrap;}
