@@ -1,50 +1,39 @@
 body{
   font-family: "Raleway", sans-serif;
-  background-color: #649AA2; 
-  padding-top: 65px;
-  padding-bottom: 65px;
+  background-color: white; 
+  padding-bottom: 32px;
+  word-wrap: break-word;
 }
 body, html {
   height: 100%;
+  width: 100%;
+}
+.section_header
+{
+  font-family: "Homemade Apple", cursive;
+  font-size: 28px;
+}
+.nav-bar-link { 
+  font-family: "Cormorant Garamond";
+  font-size: 20px;
 }
 p {
   line-height: 2
 }
 
 img {  
-  display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  min-width: 2000px;
+  height: 200px;
 }
-.banner {
-   background-image: url("./assets/banner_moon-wind-leaves.jpg");
-   background-repeat: no-repeat;
-   background-size: 50%;
-   background-position: center;
-   height: 400px;
 
-}
 section {
   width: 100%;
-  padding: 32px;
+  min-height: 100%;
+  padding-top: 295px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
 }
-#section_how-we-met{
-  background-color: rgb(146, 158, 170);
-}
-#section_accomodations{
-  background-color: rgb(16, 51, 51);
-}
-#section_venue{
-  background-color: rgb(215, 208, 215);
-}
-#section_music{
-  background-color: rgb(246, 221, 165);
-}
-#section_photos{
-  background-color: rgb(226, 221, 216);
-}
-#section_makers{
-  background-color: rgb(223, 158, 132);
-}
-.nav-bar-link { white-space: nowrap;}
+
