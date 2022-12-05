@@ -1,5 +1,8 @@
+
+
 body{
-  font-family: "Raleway", sans-serif;
+  font-family: "Cormorant Garamond", sans-serif;
+  font-size: 20px;
   background-color: white; 
   padding-bottom: 32px;
   word-wrap: break-word;
@@ -8,10 +11,25 @@ body, html {
   height: 100%;
   width: 100%;
 }
-.section_header
+h1
 {
   font-family: "Homemade Apple", cursive;
-  font-size: 28px;
+  font-size: 30px;
+}
+h2
+{
+  font-family: "Cormorant Garamond", cursive;
+  font-weight: bold;
+  font-size: 22px;
+}
+p.name
+{
+  font-family: "Homemade Apple", cursive;
+  font-size: 36px;
+}
+p.left-aligned
+{
+  text-align: left;
 }
 .nav-bar-link { 
   font-family: "Cormorant Garamond";
@@ -21,7 +39,7 @@ p {
   line-height: 2
 }
 
-img {  
+img#banner {  
   margin-left: auto;
   margin-right: auto;
   min-width: 2000px;
@@ -36,4 +54,37 @@ section {
   padding-right: 20px;
   background-color: white;
 }
+ul
+{
+  text-align: left;
+}
 
+@media screen and (max-width: 600px) {
+  body{
+    font-family: "Cormorant Garamond", sans-serif;
+    font-size: 16px;
+    background-color: white; 
+    padding-bottom: 32px;
+    word-wrap: break-word;
+  }
+ h1
+{
+  font-family: "Homemade Apple", cursive;
+  font-size: 24px;
+}
+h2
+{
+  font-family: "Cormorant Garamond", cursive;
+  font-weight: bold;
+  font-size: 18px;
+}
+p.name
+{
+  font-family: "Homemade Apple", cursive;
+  font-size: 28px;
+}
+.nav-bar-link { 
+  font-family: "Cormorant Garamond";
+  font-size: 16px;
+}
+}
