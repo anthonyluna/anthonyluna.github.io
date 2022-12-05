@@ -58,7 +58,12 @@ ul
 {
   text-align: left;
 }
-
+img.camping-yurt-images{
+  float:right;
+  width: 300px;
+  margin: 10px;
+  clear: right;
+}
 @media screen and (max-width: 600px) {
   body{
     font-family: "Cormorant Garamond", sans-serif;
@@ -87,4 +92,11 @@ p.name
   font-family: "Cormorant Garamond";
   font-size: 16px;
 }
+#camping-yurts{
+  clear:right;
+}
+img.camping-yurt-images{
+  float:none;
+  width: 300px;
+  margin: 10px;}
 }
