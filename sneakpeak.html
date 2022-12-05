@@ -1,129 +1,228 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>The Wedding of Simone and Anthony</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<style>
-body,h1,h2{font-family: "Raleway", sans-serif; background-color: #649AA2;}
-body, html {height: 100%}
-p {line-height: 2}
-.bgimg, .bgimg2 {
-  min-height: 100%;
-  background-position-x: center;
-  background-size: cover;
-}
-.bgimg {background: url("./assets/save_the_date-tree_and_moon-2022-07-21.jpg")}
-/* .bgimg2 {background-image: url("./assets/save-the-date_for-web_2022-09-22.jpg")} */
-img {  
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-  margin-top: 32px;
-  margin-bottom: 32px;
-}
-</style>
-</head> 
+  <title>Simone and Anthony's wedding</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant+Garamond">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Homemade+Apple">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
 <body>
-  
-  <!-- Header / Home-->
-  <header class="w3-display-container  w3-wide" id="home">
-    <div class="w3-display-middle w3-text-white w3-center">
+
+  <!-- Navbar (sticky top) -->
+  <div class="w3-top w3-white">
+    <img id="banner" src="./assets/banner_moon-wind-leaves_superlong (Large).jpg">
+    <div class="w3-center">
+      <a href="#top" class="w3-margin nav-bar-link">Home</a>
+      <a href="#section_how-we-met" class="w3-margin nav-bar-link">How we met</a>
+      <a href="#section_venue" class="w3-margin nav-bar-link">The Venue</a>
+      <a href="#section_accomodations" class="w3-margin nav-bar-link">Accommodations</a>
+      <a href="#section_music" class="w3-margin nav-bar-link">Music</a>
+      <a href="#section_photos" class="w3-margin nav-bar-link">Photos</a>
+      <a href="#section_makers" class="w3-margin nav-bar-link">Makers</a>
     </div>
-  </header>
-  
-  <!-- Navbar (sticky bottom) -->
-  <!-- <div class="w3-bottom w3-hide-small">
-    <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
-      <a href="#home" style="width:25%" class="w3-bar-item w3-button">Home</a>
-      <a href="#us" style="width:25%" class="w3-bar-item w3-button">Anthony & Simone</a>
-      <a href="#wedding" style="width:25%" class="w3-bar-item w3-button">Wedding</a>
-      <a href="#rsvp" style="width:25%" class="w3-bar-item w3-button w3-hover-black">Accomodations</a>
-    </div>
-  </div> -->
+  </div>
   
   <!-- About / Anthony & Simone-->
-  <div class="w3-container w3-padding-64 " id="us">
-    <div class="w3-content">
-      <img class="w3-center" src="./assets/save_the_date-tree_and_moon-2022-07-21.jpg" style="width:60%;">
-      <img class="w3-center" src="./assets/save-the-date_for-web_2022-09-22.jpg" style="width:60%;">
-      <img class="w3-center" src="./assets/invitiation-to-follow_for-web_2022-09-22.jpg" style="width:60%;">
-      <!-- <h1 class="w3-center w3-text-grey"><b>Simone & Anthony</b></h1>
-      <img class="w3-round" src="/w3images/wedding_couple2.jpg" style="width:100%;margin:32px 0">
-    <p><i>You all know us. And we all know you. We are getting married lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-      laboris nisi ut aliquip ex ea commodo consequat.</i> -->
-    </p><br>
-    <!-- <p class="w3-center"><a href="#wedding" class="w3-button w3-black w3-round w3-padding-large w3-large">Wedding Details</a></p> -->
-  </div>
-</div>
+  <section id="section_home">
+    <div class="w3-content w3-center">
+      <h1 class="section_header">The Wedding of<p class="name">Simone Albuquerque</p>and<p class="name">Anthony Luna</p></h1>
+      <p>
+        <strong>March 11, 2023</strong><br>
+        at one thirty in the afternoon<br>
+        155 Sulphur Mountain Rd, Ventura, CA 93001<br>
+        <a href="http://maps.apple.com/?address=155+Sulphur+Mountain+Rd,+Ventura,+CA+93001">Apple Maps</a>&ensp;&ensp;<a 
+        href="https://www.google.com/maps/place/155+Sulphur+Mountain+Rd,+Ventura,+CA+93001">Google Maps</a>
 
-<!-- Background photo -->
-<!-- <div class="w3-display-container bgimg2">
-  <div class="w3-display-middle w3-text-white w3-center">
-    <h1 class="w3-jumbo">You Are Invited</h1><br>
-    <h2>Of course..</h2>
-  </div>
-</div>
 
-<!-- Wedding information -->
-<!-- <div class="w3-container w3-padding-64 w3-pale-red w3-center" id="wedding">
-  <div class="w3-content">
-    <h1 class="w3-text-grey"><b>THE WEDDING</b></h1>
-    <img class="w3-round-large" src="/w3images/wedding_location.jpg" style="width:100%;margin:64px 0">
-    <div class="w3-row">
-      <div class="w3-half">
-        <h2>When</h2>
-        <p>Wedding Ceremony - 2:00pm</p>
-        <p>Reception & Dinner - 5:00pm</p>
-      </div>
-      <div class="w3-half">
-        <h2>Where</h2>
-        <p>Some place, an address</p>
-        <p>Some where, some address</p>
-      </div>
+      </p>
     </div>
-  </div>
-</div> -->
-
-<!-- RSVP section -->
-<!-- <div class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide" id="rsvp">
-  <h1>HOPE YOU CAN MAKE IT!</h1>
-  <p class="w3-large">Kindly Respond By January, 2017</p>
-  <p class="w3-xlarge">
-    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off" style="padding:8px 60px">RSVP</button>
-  </p>
-</div> -->
-
-<!-- RSVP modal -->
-<!-- <div id="id01" class="w3-modal">
-  <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
-    <div class="w3-container w3-white w3-center">
-      <h1 class="w3-wide">CAN YOU COME?</h1>
-      <p>We really hope you can make it.</p>
-      <form>
-        <input class="w3-input w3-border" type="text" placeholder="Name(s)" name="name">
-      </form>
-      <p><i>Sincerely, John & Jane</i></p>
-      <div class="w3-row">
-        <div class="w3-half">
-          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-green">Going</button>
-        </div>
-        <div class="w3-half">
-          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-red">Can't come</button>
-        </div>
-      </div>
+  </section>
+  <section id="section_how-we-met">
+    <div class="w3-content w3-center">
+      <h1 class="section_header">How we met</h1>
+      <p><strong>Simone's Perspective:</strong></p>
+      <p class="left-aligned">
+        Anthony and I met on the day before graduate studies began. It was a fall evening in the school courtyard and our
+        entire cohort was there to meet our fellow classmates. The moment I saw Anthony I was so curious to meet him! I played
+        it cool and we finally bumped into each other as the sun was setting. We hit it off right away. We talked for a while
+        about travels and family…
+      </p>
+      <p class="left-aligned">
+        After that, I'd see him in classes or around campus, and each time my heart would speed up a bit. But it wasn't too
+        startling because we were both so busy that we hardly saw each other. Occasionally, we would see each other in the
+        break room and Anthony would always have fruit fresh off a tree to share. He'd silently open up a handful of
+        persimmons and trail mix when I saw him and I'd stand and munch with him until one of us had to go somewhere. 
+      </p>
+      
+      <p class="left-aligned">
+        It went like that for at least a few months until we finally made a “date” to study together in the library. It
+        didn't matter that winter break had just begun and no assignment was really that urgent or that a fire was blazing its
+        way into Santa Barbara. We sat and studied together for 4 hours. It felt like a study standoff. Finally, we called it
+        quits and said goodbye. I regretted it was over, although I was not so sad that I no longer needed to focus my
+        attention on economics. 
+      </p>
+      
+      <p class="left-aligned">
+        After walking home that same evening, I got a text from Anthony inviting me to dinner and we went out on our first
+        date – which was amazingly relaxed, especially considering that Anthony's home had become part of the evacuation zone.
+        We said our goodnights and planned to meet after winter break, and Anthony kindly wrote down his folks' address, in
+        case I too was evacuated later that evening. 
+      </p>
+      
+      <p class="left-aligned">
+        And it went like that. Lots of things could have torn us apart, but instead they brought us together. The rest is a
+        unique tapestry of finishing school, navigating a pandemic, getting to know each other as friends, colleagues,
+        housemates, and now looking forward into a long future together.I would say it was “love at first sight” because he is
+        so handsome, but I think I fall in love with Anthony over and over again, because it seems like we are always changing
+        and meeting each other anew.
+      </p>
+      <p><strong>Anthony's Perspective:</strong></p>
+      <p class="left-aligned">
+        Simone and I first met at the tail end of a mixer at the tail end of our Master's program orientation. 
+        I asked if she was a PhD student, because I hadn't seen her around all week to which she laughed and said 
+        she was a first year like me. She then revealed that she had just returned from a trip in France to visit 
+        her good friend Grace Williams, which I thought that was a great reason to miss orientation. I then felt 
+        obligated to speak <em>at</em> Simone in French as you do after a few drinks, especially when trying to swoon 
+        and impress a beautiful woman. I didn't want to stop our lively conversation, and so asked if she wanted 
+        to continue the mixer with other fellow grad students at a local bar - she declined and left me yearning 
+        for another encounter.
+      </p>
+      <p class="left-aligned">
+        During our first few weeks of classes, I saw Simone and a few classmates in the common room kitchen 
+        clamouring to finish a coding assignment. I already had experience with the computer programming 
+        language we were using, The R Language, so I joined the group to lend a hand. This is when Simone and I 
+        first exchanged contact info, and I was known to her as "The R Extraordinaire". I was elated at the prospect 
+        of studying with her again - she made everything more fun, even coursework.
+      </p>
+      <p class="left-aligned">
+        Another week past, and we both found ourselves at a networking event with around 20 of our classmates in 
+        downtown Santa Barbara. Afterwards, a group were going to go to a house party down the street, and Simone 
+        and I found each other. We started walking and talking and found ourselves separated from the group. I thought 
+        she knew where we were going, but after our second strange turn I realized we were completely lost - but neither 
+        of us minded. We talked about family played word games with each other while walking through the neighborhoods 
+        near State street. Simone picked flowers as we walked, and placed them carefully in my hair. No one had ever 
+        done that to me before and I loved it.
+      </p>
+      <p class="left-aligned">
+        After this night, I knew we needed to go on a date - a proper date, not one under the guise of a networking event 
+        or a homework assignment, but I didn't know when the right time was to ask. I brought her snacks every day
+        so I had a reason to chat, but never got too into the one on one since we were busy with classes. Then one day we 
+        worked on an assignment for at least 7 hours. To be honest, I had been done with the assignment for a while, but I 
+        continued to format the document needlessly as we chatted and clacked away on our keyboards. Finally, she said she was done, 
+        and I said me too, then as we walked down the hall she said "I have to use the restroom" and I said awkwardly "Oh, okay, have a 
+        good night..." thinking maybe she was trying to give me a hint to buzz off. A bit disappointed, I walked to the bus 
+        stop, got on my bus, sat down and realized I was an absolute fool. I texted my sister Shamsi, and she confirmed that 
+        yes, I was an idiot. I texted Simone <em>very</em> casually if she wanted to get dinner (thanks to Shamsi's guidance) 
+        and thankfully she said yes. It was a great night, one I'll never forget. I began to fall in love with Simone the 
+        first time I met her, and have been falling more and more for her every day since.
+      </p>
+      
     </div>
+  </section>
+  <section id="section_venue">
+    <div class="w3-content w3-center">
+      <h1 class="section_header">The Venue</h1>
+      <img style="width:100%" src="assets/aerial-camp-arnaz.jpg" alt="Aerial photo of Camp Arnaz">
+      <h2>Where are we headed to celebrate:</h2>
+      <p class="left-aligned">
+        Camp Arnaz is located in the lower Ojai Valley and inland from the City of Ventura. Camp Arnaz is named 
+        after Actor Desi Arnaz who previously owned the property, which was purchased by the Girl Scouts of CA 
+        Central Coast in 1975. Camp Arnaz has recently been designated as a Monarch Breeding and Research 
+        Institute with pollinator gardens. It is also home to a variety of wildlife, including red-eared turtles, 
+        herons, fish, squirrels, owls, blue jays, swallows, woodpeckers, red tailed hawks and more!
+      </p>
+      <h2>Location and Directions:</h2>
+      <p>
+      155 Sulphur Mountain Rd, Ventura, CA 93001<br>
+      <a href="http://maps.apple.com/?address=155+Sulphur+Mountain+Rd,+Ventura,+CA+93001">Apple Maps</a>&ensp;&ensp;<a 
+      href="https://www.google.com/maps/place/155+Sulphur+Mountain+Rd,+Ventura,+CA+93001">Google Maps</a>
+    </p>
+    <p>
+      Note: the turn onto Sulphur Mountain Road is a sudden and sharp right-hand turn so keep your eyes peeled!
+    </p>
+    <h2>Venue Rules</h2>
+    <ul style="width:65%; margin:auto;">
+      <li>No smoking or vaping</li>
+      <li>No bonfires after 10PM and all bonfires must be attended by an adult</li>
+      <li>Compost is handled on site, so please ensure no non-compostable garbage is put into the compost bins provided.</li>
+    </ul>  
   </div>
-</div> -->
-
-<!-- Footer -->
-<!-- <footer class="w3-center w3-black w3-padding-16">
-</footer>
-<div class="w3-hide-small" style="margin-bottom:32px"> </div> -->
+  
+</section>
+<section id="section_accomodations">
+  <div class="w3-content w3-center">
+    <h1 class="section_header">Accommodations</h1>
+    <br>
+    <img style="float:right;width: 300px;margin: 10px;clear: right;" src="assets/campsite.jpg" alt="A yurt at Camp Arnaz">
+    <img style="float:right;width: 300px;margin: 10px;clear: right;" src="assets/yurt.jpg" alt="The inside of a yurt at Camp Arnaz">
+    <img style="float:right;width: 300px;clear: right;margin: 10px;" src="assets/inside-yurt.jpg" alt="A full campsite Camp Arnaz">
+    <h2>Camping and Yurts</h2>
+    <p class="left-aligned">
+      All are welcomed to two shared Yurts with 10 twin size bed pads per yurt (and plenty of floor space if you bring your own 
+      pad), as well as a campsite outside with a rain shelter has been rented on site. If you are visiting from out of 
+      town, or you are feeling tired after the big night, we have a place for you to stay!
+      These spots are available from March 10th-12th, and so if you'd like to stay the night before the event as well 
+      this is an option available to you. If you are planning on doing this, please let us know in advance so we can
+      ensure there is space for everyone and we can give you the low down on the amenities.
+    </p>
+    <h2 style="clear: right;">Clocktower Inn</h2>
+    <p class="left-aligned">
+      For those that prefer a hotel setting, we have blocked rooms at the Clocktower Inn located in Downtown Ventura. 
+      Follow this link to book a room (
+      <a href="https://www.clocktowerinn.com/hotel-rooms-in-ventura">https://www.clocktowerinn.com/hotel-rooms-in-ventura</a>), 
+      and make sure to use group code {WE NEED A GROUP CODE}. The room block ends {SOME DATE} so please book before this date, 
+      otherwise we cannot guarantee a room will be available.
+    </p>
+  </div>
+</section>
+  <section id="section_music">
+    <div class="w3-content w3-center">
+      <h1 class="section_header">Music</h1>
+      <p class="left-aligned">
+        We are looking forward to dancing with you all and we want to dance to songs you love! Please share any
+        recommendations you have for wedding tunes!
+      </p>
+      <p>Link to DJ:</p>
+    </div>
+  </section>
+  <section id="section_photos">
+    <div class="w3-content w3-center">
+      <h1 class="section_header">Photos</h1>
+      <p>Come back here after the event for event photos!</p>
+    </div>
+  </section>
+  <section id="section_makers">
+    <div class="w3-content w3-center">
+      <h1 class="section_header">Makers</h1>
+      <p class="left-aligned">
+        We are super excited for this opportunity to see (and in some cases meet anew!) folks! And if you want to 
+        start the fun a bit early, in a more casual scene, we would definitely benefit from some help putting things 
+        together! Absolutely no pressure, but if you love to be part of the makings of things we would love your 
+        company in the making of the following parts of the wedding:
+      </p>
+      <p>
+        <strong>Empanada Baking</strong><br>
+        March 9th, 2pm, Oxnard, CA<br>
+        <div style="width:65%; margin:auto;">We'll be learning Nancy Luna's amazing recipe for empanadas, chatting and folding up empanadas.</div>
+      </p>
+      <p>
+        <strong>Bouquet Making</strong><br>
+        March 10th, 10am, Camp Arnaz<br>
+        We'll be making many bouquets at Camp Arnaz.
+      </p>
+      <p>
+        <strong>Decorations</strong><br>
+        March 11th 8am, Camp Arnaz<br>
+        Hanging lights and setting up the space.
+      </p>
+    </div>
+  </section>
 
 </body>
+
 </html>
