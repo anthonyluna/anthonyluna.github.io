@@ -10,19 +10,31 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant+Garamond">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Homemade+Apple">
   <link rel="stylesheet" href="./style.css">
+  <script>
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("header").style.top = "0";
+      } else {
+        document.getElementById("header").style.top = "-200px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+  </script>
 </head>
 
 <body>
 
   <!-- Navbar (sticky top) -->
-  <div class="w3-top w3-white">
+  <div id="header" class="w3-top w3-white">
     <img id="banner" src="./assets/banner_moon-wind-leaves_superlong (Large).jpg">
     <div class="w3-center">
       <a href="#top" class="w3-margin nav-bar-link">Home</a>
       <a href="#section_how-we-met" class="w3-margin nav-bar-link">How we met</a>
       <a href="#section_venue" class="w3-margin nav-bar-link">The Venue</a>
       <a href="#section_accomodations" class="w3-margin nav-bar-link">Accommodations</a>
-      <a href="#section_music" class="w3-margin nav-bar-link">Music</a>
+      <a href="#section_gifts" class="w3-margin nav-bar-link">Gifts</a>
       <a href="#section_photos" class="w3-margin nav-bar-link">Photos</a>
       <a href="#section_makers" class="w3-margin nav-bar-link">Makers</a>
     </div>
@@ -34,7 +46,7 @@
       <h1 class="section_header">The Wedding of<p class="name">Simone Albuquerque</p>and<p class="name">Anthony Luna</p></h1>
       <p>
         <strong>March 11, 2023</strong><br>
-        at one thirty in the afternoon<br>
+        at one thirty in the afternoon<br> <!--butts in seats at-->
         155 Sulphur Mountain Rd, Ventura, CA 93001<br>
         <a href="http://maps.apple.com/?address=155+Sulphur+Mountain+Rd,+Ventura,+CA+93001">Apple Maps</a>&ensp;&ensp;<a 
         href="https://www.google.com/maps/place/155+Sulphur+Mountain+Rd,+Ventura,+CA+93001">Google Maps</a>
@@ -175,33 +187,69 @@
       this is an option available to you. If you are planning on doing this, please let us know in advance so we can
       ensure there is space for everyone and we can give you the low down on the amenities.
     </p>
-    <h2 style="clear: right;">Hotel Accomodations</h2>
-     <p class="left-aligned">
-      For those that prefer a hotel setting, we are working on getting a room block so come back soon for more details!
-    </p>
-    <!--h2 style="clear: right;">Clocktower Inn</h2>
-    <p class="left-aligned">
-      For those that prefer a hotel setting, we have blocked rooms at the Clocktower Inn located in Downtown Ventura. 
-      Follow this link to book a room (
-      <a href="https://www.clocktowerinn.com/hotel-rooms-in-ventura">https://www.clocktowerinn.com/hotel-rooms-in-ventura</a>), 
-      and make sure to use group code {WE NEED A GROUP CODE}. The room block ends {SOME DATE} so please book before this date, 
-      otherwise we cannot guarantee a room will be available.
-    </p-->
+    <h2 style="clear: right;">Hotel Accommodations</h2>
+    <p class="left-aligned">In Ojai, CA - time from venue ~15 minutes</p>
+    <ul>
+      <li><a target="_blank" rel="noopener" href="https://www.caprihotelojai.com/">Capri Hotel</a></li>
+      <li><a target="_blank" rel="noopener" href="https://ojairetreat.com/">Ojai Retreat and Inn</a></li>
+    </ul>
+    
+    <p class="left-aligned">Nearby Hangout Spots:</p>
+    <ul>
+      <li><a target="_blank" rel="noopener" href="https://bartsbooksojai.com/">Bart’s Outdoor Bookstore </a></li>
+      <li><a target="_blank" rel="noopener" href="https://www.beaconcoffee.com/">Beacon Coffee</a></li>
+      <li><a target="_blank" rel="noopener" href="https://www.ojaibeveragecompany.com/">Ojai Beverage Co. </a></li>
+      <li><a target="_blank" rel="noopener" href="https://topatopa.beer/">Topa Topa Brewing </a></li>
+    </ul>
+    
+    <p class="left-aligned">For Hikers… <em>These are long hikes, that can be shortened, the path is as beautiful as the destination, especially in spring</em></p>
+    <ul>
+      <li><a target="_blank" rel="noopener" href="https://www.calwild.org/cozy-dell-trail-2/">Cozy Dell Trail</a></li>
+      <li><a target="_blank" rel="noopener" href="https://www.alltrails.com/trail/us/california/matilija-falls-trail--4">Matilija Falls Trail </a></li>
+    </ul>
+    
+    <p class="left-aligned">In Ventura, CA - time from venue ~15 minutes </p>
+    <ul>
+      <li><a target="_blank" rel="noopener" href="https://be.synxis.com/?adult=1&arrive=2023-03-11&chain=25794&child=0&currency=USD&depart=2023-03-12&hotel=9154&level=hotel&locale=en-US&rooms=1">ClockTower Inn</a></li>
+      <li><a target="_blank" rel="noopener" href="https://www.ihg.com/holidayinnexpress/hotels/us/en/ventura/vntnd/hoteldetail">Holiday Inn</a></li>
+    </ul>
+    <p class="left-aligned">Nearby Hangout Spots:</p>
+    <ul>
+      <li><a target="_blank" rel="noopener" href="https://www.prospectcoffee.com/">Prospect Coffee Roasters</a></li>
+      <li><a target="_blank" rel="noopener" href="https://www.paradisepantry.com/">Paradise Pantry (great lunch spot)</a></li>
+      <li><a target="_blank" rel="noopener" href="https://www.barrelhouse101.com/">Barrel House 101</a></li>
+      <li><a target="_blank" rel="noopener" href="https://madewest.com/pages/brewery">Madewest Brewing</a> (tap room on the Pier, next door to a great fish taco spot!)</li>
+      <li><a target="_blank" rel="noopener" href="https://venturabotanicalgardens.com/">Ventura Botanic Gardens</a></li>
+      <li><a target="_blank" rel="noopener" href="https://venturamuseum.org/">Museum of Ventura</a></li>
+    </ul>
   </div>
 </section>
-  <section id="section_music">
+  <section id="section_gifts">
     <div class="w3-content w3-center">
-      <h1 class="section_header">Music</h1>
+      <h1 class="section_header">Gifts</h1>
       <p class="left-aligned">
-        We are looking forward to dancing with you all and we want to dance to songs you love! Please share any
-        requests or reccomendations you have for wedding tunes to <a href="mailto:anthony.s.luna@gmail.com">anthony.s.luna@gmail.com</a>.
+        If you would like to give us a wedding gift... 
       </p>
+      
+      <p class="left-aligned">
+        We would love and appreciate receiving anything that inspires you. We do not have a registry, however we do have a honeymoon fund. We will have a place to leave cards at the reception, or if you'd prefer to give a gift digitally please <a href="mailto:lemony-calcite.0p@icloud.com">email us directly</a>. We understand that cash gifts may not be everyone's preference, so please do not feel obligated in any way. Your presence at our wedding is a gift in itself! 
+      </p>
+      
     </div>
   </section>
   <section id="section_photos">
     <div class="w3-content w3-center">
       <h1 class="section_header">Photos</h1>
       <p>Come back here after the event for event photos!</p>
+      <div class="engagement_photos"><a target="_blank" rel="noopener" href="./assets/engagement_photos/1237.jpg"><img src="assets\engagement_photos\small_versions\1237.jpg"></a></div>
+      <div class="engagement_photos"><a target="_blank" rel="noopener" href="./assets/engagement_photos/1257.jpg"><img src="assets\engagement_photos\small_versions\1257.jpg"></a></div>
+      <div class="engagement_photos"><a target="_blank" rel="noopener" href="./assets/engagement_photos/1261.jpg"><img src="assets\engagement_photos\small_versions\1261.jpg"></a></div>
+      <div class="engagement_photos"><a target="_blank" rel="noopener" href="./assets/engagement_photos/1267.jpg"><img src="assets\engagement_photos\small_versions\1267.jpg"></a></div>
+      <div class="engagement_photos"><a target="_blank" rel="noopener" href="./assets/engagement_photos/1275.jpg"><img src="assets\engagement_photos\small_versions\1275.jpg"></a></div>
+      <div class="engagement_photos"><a target="_blank" rel="noopener" href="./assets/engagement_photos/1279.jpg"><img src="assets\engagement_photos\small_versions\1279.jpg"></a></div>
+      <div class="engagement_photos"><a target="_blank" rel="noopener" href="./assets/engagement_photos/1290.jpg"><img src="assets\engagement_photos\small_versions\1290.jpg"></a></div>
+      <div class="engagement_photos"><a target="_blank" rel="noopener" href="./assets/engagement_photos/1396.jpg"><img src="assets\engagement_photos\small_versions\1396.jpg"></a></div>
+      <div class="engagement_photos"><a target="_blank" rel="noopener" href="./assets/engagement_photos/1426.jpg"><img src="assets\engagement_photos\small_versions\1426.jpg"></a></div>
     </div>
   </section>
   <section id="section_makers">
